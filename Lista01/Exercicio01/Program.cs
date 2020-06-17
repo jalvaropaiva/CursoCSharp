@@ -12,7 +12,8 @@ namespace Exercicio01
         {
             Console.WriteLine("Digite seu nome");
             string s = Console.ReadLine();
-            Console.WriteLine($"Bem vindo ao C#, {s}");
+            Console.WriteLine($"Bem vindo ao C#,    {s}");
+            Console.WriteLine(@"Bem vindo ao C#, {0}", s);
             Console.ReadKey();
         }
     }
