@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio01
+namespace Ex1247
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite seu nome");
             string s = Console.ReadLine();
-            Console.WriteLine($"Bem vindo ao C#, {s}");
-            Console.WriteLine(@"Bem vindo ao C#, {0}", s);
-            Console.ReadKey();
+            while(string.IsNullOrEmpty(s) == false)
+            {
+                Console.WriteLine("Leu alguma coisa");
+                s = Console.ReadLine();
+            }
         }
     }
 }
