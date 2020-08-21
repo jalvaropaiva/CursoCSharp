@@ -1,0 +1,15 @@
+﻿<Window x:Class="PaineisApp.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaineisApp"
+        mc:Ignorable="d"
+        Title="StackPanel" Height="150" Width="180">
+    <StackPanel>
+        <Button HorizontalContentAlignment="Stretch" Content="Stretch"/>
+        <Button HorizontalContentAlignment="Left" Content="Left"/>
+        <Button HorizontalContentAlignment="Right" Content="Right"/>
+        <Button HorizontalContentAlignment="Center" Content="Center"/>
+    </StackPanel>
+</Window>

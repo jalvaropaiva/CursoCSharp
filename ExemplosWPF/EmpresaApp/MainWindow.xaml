@@ -1,0 +1,35 @@
+﻿<Window x:Class="EmpresaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmpresaApp"
+        mc:Ignorable="d"
+        Title="Empresa" Height="350" Width="500">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Cliente">
+                <MenuItem Header="Novo Cliente..."/>
+                <Separator />
+                <MenuItem Header="Sair"/>
+            </MenuItem>
+        </Menu>
+        <GroupBox Header="Operações" HorizontalAlignment="Left" Height="55" Margin="5,25,0,0" VerticalAlignment="Top" Width="480">
+            <Grid>
+                <Button Content="Listar" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click"/>
+                <Button Content="Associar Clientes" HorizontalAlignment="Left" Margin="105,10,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_1"/>
+            </Grid>
+        </GroupBox>
+        <ListView x:Name="list" HorizontalAlignment="Left" Height="219" Margin="5,90,0,0" VerticalAlignment="Top" Width="480">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Nome}" Header="Nome" Width="90" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=CPF}" Header="CPF" Width="90" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Limite}" Header="Limite Pessoal" Width="90" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Socio}" Header="Sócio" Width="90" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=LimiteTotal}" Header="Limite Total" Width="90" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

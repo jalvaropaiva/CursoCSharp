@@ -1,0 +1,18 @@
+﻿<Window x:Class="MonitorApp.LabsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonitorApp"
+        mc:Ignorable="d"
+        Title="Laboratórios" Height="200" Width="450">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,10,0,0" TextWrapping="Wrap" Text="Descrição" VerticalAlignment="Top"/>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="txtDesc" HorizontalAlignment="Left" Height="23" Margin="65,30,0,0" TextWrapping="Wrap" Text="Lab 01" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Inserir" Click="InserirClick" HorizontalAlignment="Left" Margin="170,30,0,0" VerticalAlignment="Top" Width="75" />
+        <Button Content="Excluir" Click="ExcluirClick" HorizontalAlignment="Left" Margin="250,30,0,0" VerticalAlignment="Top" Width="75" />
+        <ListBox x:Name="list" HorizontalAlignment="Left" Height="100" Margin="10,58,0,0" VerticalAlignment="Top" Width="395"/>
+    </Grid>
+</Window>

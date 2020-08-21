@@ -1,0 +1,27 @@
+﻿<Window x:Class="AgendaCompromissoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AgendaCompromissoApp"
+        mc:Ignorable="d"
+        Title="Agenda de Compromissos" Height="250" Width="600">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,15,0,0" TextWrapping="Wrap" Text="Assunto" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,15,0,0" TextWrapping="Wrap" Text="Local" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="370,15,0,0" TextWrapping="Wrap" Text="Data" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="190,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
+        <DatePicker HorizontalAlignment="Left" Margin="370,35,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button Content="Inserir" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Margin="100,85,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="190,85,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button Content="Pesquisar" HorizontalAlignment="Left" Margin="280,85,0,0" VerticalAlignment="Top" Width="85"/>
+        <TextBlock HorizontalAlignment="Left" Margin="370,65,0,0" TextWrapping="Wrap" Text="Mês" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="470,65,0,0" TextWrapping="Wrap" Text="Ano" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="370,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="470,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <ListBox HorizontalAlignment="Left" Height="85" Margin="10,120,0,0" VerticalAlignment="Top" Width="550"/>
+
+    </Grid>
+</Window>

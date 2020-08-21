@@ -1,0 +1,23 @@
+﻿<Window x:Class="ControlesApp.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:ControlesApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="250">
+    <Grid>
+        <ListView VerticalAlignment="Top">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Assunto" DisplayMemberBinding="{Binding Path=Assunto}"/>
+                    <GridViewColumn Header="Local" DisplayMemberBinding="{Binding Path=Local}"/>
+                    <GridViewColumn Header="Data" DisplayMemberBinding="{Binding Path=Data, StringFormat=dd/MM/yyyy}"/>
+                </GridView>
+            </ListView.View>
+            <local:Compromisso Assunto="Controles WPF" Local="Teams" Data="2020-08-03"/>
+            <local:Compromisso Assunto="Exercícios WPF" Local="Teams" Data="2020-08-05"/>
+        </ListView>
+    </Grid>
+</Window>

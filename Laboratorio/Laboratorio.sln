@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{82B7036D-4059-411A-8895-1B9E4D80459D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorApp", "SensorApp\SensorApp.csproj", "{0CCE8599-2B5F-47B8-82C0-700559081600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorApp", "MonitorApp\MonitorApp.csproj", "{F855C9F8-B631-4209-842E-08CDD4F927A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82B7036D-4059-411A-8895-1B9E4D80459D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B7036D-4059-411A-8895-1B9E4D80459D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B7036D-4059-411A-8895-1B9E4D80459D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B7036D-4059-411A-8895-1B9E4D80459D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCE8599-2B5F-47B8-82C0-700559081600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCE8599-2B5F-47B8-82C0-700559081600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCE8599-2B5F-47B8-82C0-700559081600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCE8599-2B5F-47B8-82C0-700559081600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F855C9F8-B631-4209-842E-08CDD4F927A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F855C9F8-B631-4209-842E-08CDD4F927A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F855C9F8-B631-4209-842E-08CDD4F927A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F855C9F8-B631-4209-842E-08CDD4F927A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D44F4E-79CA-456B-8CD0-921B9C708FD7}
+	EndGlobalSection
+EndGlobal
